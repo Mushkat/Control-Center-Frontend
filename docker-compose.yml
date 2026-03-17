@@ -1,0 +1,26 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: users-groups-dashboard:local
+    pull_policy: never
+    container_name: users-groups-frontend
+    command: npm run dev -- --host 0.0.0.0 --port 5173
+    environment:
+      VITE_API_BASE_URL: http://localhost:3001
+    ports:
+      - '5173:5173'
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: users-groups-dashboard:local
+    pull_policy: never
+    container_name: users-groups-api
+    command: npm run server
+    ports:
+      - '3001:3001'

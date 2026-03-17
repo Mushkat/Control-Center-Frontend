@@ -1,0 +1,89 @@
+.grid {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.card {
+  position: relative;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(79, 116, 255, 0), rgba(41, 204, 177, 0.38), rgba(99, 199, 255, 0.24), rgba(32, 183, 217, 0));
+}
+
+.label {
+  margin: 0;
+  font-size: var(--text-meta-size);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.value {
+  margin: 0;
+  font-size: 1.82rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
+}
+
+.note {
+  margin: 0;
+  font-size: var(--text-body-size);
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.progressTrack {
+  width: 100%;
+  height: 0.42rem;
+  border-radius: 999px;
+  background-color: #e6eefc;
+}
+
+.progressBar {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(120deg, var(--color-brand-500) 0%, var(--color-accent-cyan) 100%);
+}
+
+.warningDot,
+.successDot {
+  position: absolute;
+  top: 1.05rem;
+  right: 1.15rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  border-radius: 999px;
+}
+
+.warningDot {
+  background-color: #f59e0b;
+}
+
+.successDot {
+  background-color: #10b981;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

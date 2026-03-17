@@ -1,0 +1,197 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Алексей Иванов",
+      "account": "aleksey.ivanov",
+      "email": "aleksey.ivanov@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-01"
+    },
+    {
+      "id": "2",
+      "fullName": "Мария Смирнова",
+      "account": "maria.smirnova",
+      "email": "maria.smirnova@corp.dev",
+      "groupId": "design",
+      "phone": "+7 (999) 101-11-02"
+    },
+    {
+      "id": "3",
+      "fullName": "Дмитрий Кузнецов",
+      "account": "dmitriy.kuznetsov",
+      "email": "dmitriy.kuznetsov@corp.dev",
+      "groupId": null,
+      "phone": "+7 (999) 101-11-03"
+    },
+    {
+      "id": "4",
+      "fullName": "Екатерина Попова",
+      "account": "ekaterina.popova",
+      "email": "ekaterina.popova@corp.dev",
+      "groupId": "ops",
+      "phone": "+7 (999) 101-11-04"
+    },
+    {
+      "id": "5",
+      "fullName": "Сергей Васильев",
+      "account": "sergey.vasiliev",
+      "email": "sergey.vasiliev@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-05"
+    },
+    {
+      "id": "6",
+      "fullName": "Анна Петрова",
+      "account": "anna.petrova",
+      "email": "anna.petrova@corp.dev",
+      "groupId": null,
+      "phone": "+7 (999) 101-11-06"
+    },
+    {
+      "id": "7",
+      "fullName": "Никита Соколов",
+      "account": "nikita.sokolov",
+      "email": "nikita.sokolov@corp.dev",
+      "groupId": "design",
+      "phone": "+7 (999) 101-11-07"
+    },
+    {
+      "id": "8",
+      "fullName": "Ольга Михайлова",
+      "account": "olga.mikhaylova",
+      "email": "olga.mikhaylova@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-08"
+    },
+    {
+      "id": "9",
+      "fullName": "Илья Новиков",
+      "account": "ilya.novikov",
+      "email": "ilya.novikov@corp.dev",
+      "groupId": "ops",
+      "phone": "+7 (999) 101-11-09"
+    },
+    {
+      "id": "10",
+      "fullName": "Татьяна Федорова",
+      "account": "tatyana.fedorova",
+      "email": "tatyana.fedorova@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-10"
+    },
+    {
+      "id": "11",
+      "fullName": "Павел Морозов",
+      "account": "pavel.morozov",
+      "email": "pavel.morozov@corp.dev",
+      "groupId": "design",
+      "phone": "+7 (999) 101-11-11"
+    },
+    {
+      "id": "12",
+      "fullName": "Юлия Волкова",
+      "account": "yuliya.volkova",
+      "email": "yuliya.volkova@corp.dev",
+      "groupId": "ops",
+      "phone": "+7 (999) 101-11-12"
+    },
+    {
+      "id": "13",
+      "fullName": "Артем Алексеев",
+      "account": "artem.alekseev",
+      "email": "artem.alekseev@corp.dev",
+      "groupId": null,
+      "phone": "+7 (999) 101-11-13"
+    },
+    {
+      "id": "14",
+      "fullName": "Виктория Лебедева",
+      "account": "viktoria.lebedeva",
+      "email": "viktoria.lebedeva@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-14"
+    },
+    {
+      "id": "15",
+      "fullName": "Роман Семенов",
+      "account": "roman.semenov",
+      "email": "roman.semenov@corp.dev",
+      "groupId": "design",
+      "phone": "+7 (999) 101-11-15"
+    },
+    {
+      "id": "16",
+      "fullName": "Дарья Егорова",
+      "account": "darya.egorova",
+      "email": "darya.egorova@corp.dev",
+      "groupId": "ops",
+      "phone": "+7 (999) 101-11-16"
+    },
+    {
+      "id": "17",
+      "fullName": "Михаил Павлов",
+      "account": "mikhail.pavlov",
+      "email": "mikhail.pavlov@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-17"
+    },
+    {
+      "id": "18",
+      "fullName": "Светлана Козлова",
+      "account": "svetlana.kozlova",
+      "email": "svetlana.kozlova@corp.dev",
+      "groupId": null,
+      "phone": "+7 (999) 101-11-18"
+    },
+    {
+      "id": "19",
+      "fullName": "Кирилл Степанов",
+      "account": "kirill.stepanov",
+      "email": "kirill.stepanov@corp.dev",
+      "groupId": "design",
+      "phone": "+7 (999) 101-11-19"
+    },
+    {
+      "id": "20",
+      "fullName": "Вероника Николаева",
+      "account": "veronika.nikolaeva",
+      "email": "veronika.nikolaeva@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-20"
+    },
+    {
+      "id": "21",
+      "fullName": "Георгий Орлов",
+      "account": "georgiy.orlov",
+      "email": "georgiy.orlov@corp.dev",
+      "groupId": "ops",
+      "phone": "+7 (999) 101-11-21"
+    },
+    {
+      "id": "22",
+      "fullName": "Полина Макарова",
+      "account": "polina.makarova",
+      "email": "polina.makarova@corp.dev",
+      "groupId": "eng",
+      "phone": "+7 (999) 101-11-22"
+    }
+  ],
+  "groups": [
+    {
+      "id": "eng",
+      "name": "Engineering",
+      "description": "Frontend and backend product development"
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "description": "Product design, UX research, and visual systems"
+    },
+    {
+      "id": "ops",
+      "name": "Operations",
+      "description": "Business operations and process management"
+    }
+  ]
+}
