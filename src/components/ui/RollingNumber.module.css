@@ -1,0 +1,68 @@
+.placeholder {
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+  visibility: hidden;
+  user-select: none;
+}
+
+.root {
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+.staticPart {
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1;
+}
+
+.digitWindow {
+  --digit-step: 1em;
+  position: relative;
+  display: inline-flex;
+  height: var(--digit-step);
+  overflow: hidden;
+  align-items: flex-start;
+}
+
+.digitIdle,
+.digitAnimated {
+  display: inline-flex;
+  flex-direction: column;
+  transform: translateY(0);
+}
+
+.digitAnimated {
+  --target-index: 0;
+  --duration: 860ms;
+  --delay: 0ms;
+  animation: roll-digit var(--duration) cubic-bezier(0.22, 1, 0.36, 1) var(--delay) forwards;
+}
+
+.digitCell {
+  display: block;
+  height: var(--digit-step);
+  line-height: 1;
+}
+
+@keyframes roll-digit {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(var(--target-index) * -1 * var(--digit-step)));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .digitAnimated {
+    animation: none;
+    transform: translateY(calc(var(--target-index) * -1 * var(--digit-step)));
+  }
+}

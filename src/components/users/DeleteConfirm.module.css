@@ -1,0 +1,43 @@
+.root {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.warningBox {
+  padding: var(--space-4);
+  border: 1px solid #f2d6de;
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, #fffefe 0%, #fff7f9 100%);
+}
+
+.warningTitle {
+  margin: 0;
+  font-size: var(--text-body-size);
+  font-weight: 700;
+  color: #8f2c49;
+}
+
+.warningText {
+  margin: var(--space-1) 0 0;
+  font-size: var(--text-body-size);
+  color: #a4475e;
+}
+
+.userName {
+  font-weight: 700;
+}
+
+.alert {
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-danger-200);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-body-size);
+  color: var(--color-danger-700);
+  background-color: var(--color-danger-50);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}

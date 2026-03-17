@@ -1,0 +1,51 @@
+.card {
+  text-align: center;
+  padding: var(--space-6);
+}
+
+.title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+.description {
+  margin: var(--space-1) 0 0;
+  font-size: var(--text-body-size);
+  line-height: 1.55;
+}
+
+.loadTitle {
+  color: var(--color-text-primary);
+}
+
+.loadDescription {
+  color: var(--color-text-muted);
+}
+
+.error {
+  border-color: var(--color-danger-200);
+  background: linear-gradient(180deg, #fff8fa 0%, var(--color-danger-50) 100%);
+}
+
+.errorTitle {
+  color: var(--color-danger-text);
+}
+
+.errorDescription {
+  color: var(--color-danger-700);
+}
+
+.empty {
+  border-style: dashed;
+  border-color: var(--color-border-muted);
+  background-color: var(--color-bg-muted);
+}
+
+.emptyTitle {
+  color: var(--color-text-secondary);
+}
+
+.emptyDescription {
+  color: var(--color-text-muted);
+}

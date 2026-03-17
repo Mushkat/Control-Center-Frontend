@@ -1,0 +1,95 @@
+.topReveal,
+.tableReveal {
+  display: grid;
+  gap: var(--space-8);
+}
+
+.metricsSection {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.metricCard {
+  display: grid;
+  gap: 0.28rem;
+  padding: var(--space-4) var(--space-5);
+  border-color: #d3ebe4;
+  box-shadow: 0 2px 10px rgba(35, 60, 103, 0.05);
+}
+
+.metricLabel {
+  margin: 0;
+  font-size: var(--text-meta-size);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.metricValue {
+  margin: 0;
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
+}
+
+.toolbarCard {
+  border-color: #c7e8df;
+  box-shadow: 0 8px 22px rgba(20, 120, 108, 0.12);
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.searchBlock {
+  width: 100%;
+}
+
+.searchLabel {
+  display: block;
+  margin-bottom: var(--space-1);
+  font-size: 0.82rem;
+  font-weight: 650;
+  color: var(--color-text-secondary);
+}
+
+.searchHint {
+  margin: var(--space-2) 0 0;
+  font-size: var(--text-meta-size);
+  color: var(--color-text-muted);
+}
+
+.toolbarActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-3);
+}
+
+.tableSection {
+  gap: var(--space-2);
+}
+
+@media (min-width: 640px) {
+  .metricsSection {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .toolbar {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .searchBlock {
+    max-width: 34rem;
+  }
+
+  .toolbarActions {
+    justify-content: flex-end;
+  }
+}
