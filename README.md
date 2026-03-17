@@ -82,7 +82,7 @@ npm run server
 
 Mock API: `http://localhost:3001`
 
-### 4) Запуск с помощью docker
+### 4) Запуск с помощью docker (может ругаться на package-lock.json)
 
 ```bash
 docker compose up --build
@@ -111,11 +111,11 @@ HTTP-база настраивается через `VITE_API_BASE_URL` (по у
 
 ## Скриншоты приложения
 
-![img.png](READMEimg%2Fimg.png)
+![img.png](READMEimg/img.png)
 
-![img_1.png](READMEimg%2Fimg_1.png)
+![img_1.png](READMEimg/img_1.png)
 
-![img_2.png](READMEimg%2Fimg_2.png)
+![img_2.png](READMEimg/img_2.png)
 
 ## Выводы по проектированию UI вручную и при помощи LLM
 
